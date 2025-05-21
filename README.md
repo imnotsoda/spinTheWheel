@@ -15,8 +15,10 @@ just a cool project.
 i also need to stop being indecisive!...
 
 ## motivation 
-<p><small>whats even the difference between purpose and motivation anyways ? .. </small></p>
-The initial motivation was that I was always indecisive and therefore would resort to the easiest choice --- to scroll on my phone. I've been exposed to social media since long and it has taken my attention and energy away from the things that I actually want to try and matter. By having a easier decision-making method which allows me to complete a simple task, like some simple chores by default, I hope that my actions will snowball and lead me to take more conscious choices, eventually completing the tasks and being the person I want to be. 
+<p>
+    <sub><sup><i>whats even the difference between purpose and motivation anyways ? .. </i></sup></sub>
+</p>
+The initial motivation was that I was always indecisive and therefore would resort to the easiest choice –– to scroll on my phone. I've been exposed to social media since long and it has taken my attention and energy away from the things that I actually want to try and matter. By having a easier decision-making method which allows me to complete a simple task, like some simple chores by default, I hope that my actions will snowball and lead me to take more conscious choices, eventually completing the tasks and being the person I want to be. 
 
 ## source
 i am basing it off of a [youtube tutorial](https://youtu.be/-FNm58Z9GHM?si=nab7WdWw4G7CO9vj). gotta love the internet! 
@@ -31,4 +33,7 @@ _potential (!!!) ideas..._
 
 ## timeline
 - 05/20/2025: started & finished tutorial. came up with ideas to advance the project
-- 05/21/2025: updated the readme properly
+- 05/21/2025: updated the readme properly. TIL (or re-learned) that i can just preview instead of committing to view my changes 😭
+
+### todos
+- [ ] annotate & really understand the code from the tutorial
