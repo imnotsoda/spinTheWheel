@@ -1,5 +1,6 @@
 # spinTheWheel
 wheel spinning shenanigans
+![spinningWheel_LeafMane813_DeviantArt](https://github.com/user-attachments/assets/95a2dd6d-cd19-42db-9c6f-a2b3bc84adf9)
 
 ## purpose / motivation
 just a cool project. i also need to stop being indecisive!... The initial motivation was that I was always indecisive and therefore resort to the easiest choice --- to scroll on my phone. I've been exposed to social media since long and it has taken my attention and energy away from the things that I actually want to try and matter. By having a easier decision-making method which allows me to complete a simple task, like some simple chores by default, I hope that my actions will snowball and lead me to take more conscious choices, eventually completing the tasks and being the person I want to be. 
