@@ -30,6 +30,7 @@ _potential (!!!) ideas..._
 - [ ] generate specific color tones / themes (eg. just pastel tones, or to generate colors that are not similar to each other for the adjacent parts --- currently the colors are randomly generalted)
 - [ ] build another version which it has two layers of wheels (category version), and make them spin in opposite directions
 - [ ] have the person click & drag their cursor over the wheel to simulate an actual wheel spinning
+- [ ] deploy it & actually host the website. currently it is just local host 😋
 
 ## timeline
 - 05/20/2025: started & finished tutorial. came up with ideas to advance the project
@@ -37,3 +38,54 @@ _potential (!!!) ideas..._
 
 ### todos
 - [ ] annotate & really understand the code from the tutorial
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+## further notes
+wow who imagined anyone but me would reach this page ?? 
+
+maybe i'll have a clicker that counts the # of people hmmmmmmmm
+
+<p>
+    <del>anyways here's the link to my notebook page that im using for this project:</del>
+</p>
+
+i couldnt figure out to share only one page <img src="https://media.tenor.com/84KrdLGU9AUAAAAj/emoji-disintegrating.gif" width="50" heigth="50">
