@@ -1,8 +1,9 @@
 # spinTheWheel
 
-
 <p align="center">
-  <em>wheel spinning shenanigans\<em/>
+    wheel spinning shenanigans
+<p/>
+<p align="center">
   <img src="https://github.com/user-attachments/assets/95a2dd6d-cd19-42db-9c6f-a2b3bc84adf9" width="50%" height="50%" />
 </p>
 
