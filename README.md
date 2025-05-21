@@ -1,5 +1,5 @@
 # spinTheWheel
-wheel spinning shenanigans
+wheel spinning shenanigans\n
 <img src="https://github.com/user-attachments/assets/95a2dd6d-cd19-42db-9c6f-a2b3bc84adf9" width="50%" height="50%" />
 
 ## purpose / motivation
