@@ -24,8 +24,8 @@ The initial motivation was that I was always indecisive and therefore would reso
 i am basing it off of a [youtube tutorial](https://youtu.be/-FNm58Z9GHM?si=nab7WdWw4G7CO9vj). gotta love the internet! 
 
 ## upcoming changes / ideas
-_potential (!!!) ideas..._
-- [ ] option to remove a choice automatically once selected (ie when the wheel lands on the said option)
+_potential (!!!) ideas..._\
+- [ ] [IN PROGRESS] option to remove a choice automatically once selected (ie when the wheel lands on the said option)
 - [ ] potentially re-create as an iOS widge on the lock screen or home page so I can access it on my phone
 - [ ] generate specific color tones / themes (eg. just pastel tones, or to generate colors that are not similar to each other for the adjacent parts --- currently the colors are randomly generalted)
 - [ ] build another version which it has two layers of wheels (category version), and make them spin in opposite directions
@@ -35,6 +35,7 @@ _potential (!!!) ideas..._
 ## timeline
 - 05/20/2025: started & finished tutorial. came up with ideas to advance the project
 - 05/21/2025: updated the readme properly. TIL (or re-learned) that i can just preview instead of committing to view my changes 😭
+- 05/23/2025: i wanted to work on this everyday but i kind of fell off. oops... i tried to add the automatically-removing-winner thing, but i barely have it working. check my commit on this day to see additional details & further steps
 
 ### todos
 - [ ] annotate & really understand the code from the tutorial
