@@ -33,6 +33,8 @@ _potential (!!!) ideas..._
 - [ ] build another version which it has two layers of wheels (category version), and make them spin in opposite directions
 - [ ] have the person click & drag their cursor over the wheel to simulate an actual wheel spinning
 - [ ] deploy it & actually host the website. currently it is just local host 😋
+- [ ] move the textbox & toggle switch to the right of the wheel (just a better placement imo)
+- [ ] make the text self-wrap
 
 ## timeline
 - 05/20/2025: started & finished tutorial. came up with ideas to advance the project
