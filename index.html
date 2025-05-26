@@ -50,16 +50,106 @@
       .inputArea{
         display: flex;
         justify-content: center;
-        margin-top: 40px;
+        margin-top: 10px;
       }
 
+      .switch-wrapper {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        margin-bottom: 10px;
+      }
+
+      :root {
+        /*root variables*/
+        --width-of-switch: 3.5em;
+        --height-of-switch: 2em;
+        /* size of the icon: sun & moon */
+        --size-of-icon: 1.4em;
+        /* inline padding for switch */
+        --slider-offset: 0.4em;
+      }
+
+      .switch input {
+        /* targetting the input of the switch */
+        /* hide the default look of the checkbox */
+        width: 0;
+        height: 0 ;
+        opacity: 0;
+      }
+
+      .switch {
+        /* write the style for the main switch */
+        display: block;
+        position: relative;
+
+        /* switch width -- we need to use the var */
+        /* function to keep the elements in the root*/
+        width: var(--width-of-switch);
+        height: var(--height-of-switch);
+      }
+
+      .slider {
+        /* the background layer */
+        position: absolute;
+        cursor: pointer; /* what does this mean */
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #29ae1f;
+        transition: 0.4s; /* what does this mean */
+        border-radius: 30px;
+      }
+
+      .slider::before { /* this is the light mode (sun) */
+        /* slider is inside the switch */
+        /* ie the switch is the parent of slider */
+        /* so it's position is absolute to the switch */
+        position: absolute;
+        content: "";
+        height: 12px;
+        width: 4px;
+        top: var(--slider-offset, 0.3em);
+        left: 13px;
+        /* left: var(--slider-offset, 0.3em) ; */
+        border-right: 3px solid white;
+        border-bottom: 3px solid white;
+        transform: rotate(45deg);
+        transition: 0.4s;
+      }
+
+      input:checked + .slider {
+        /* if input is checked, make changes to the slider */
+
+        /* this changes the background color of the whole toggle switch */
+        background: #ca1a1a;
+      }
+
+      input:checked + .slider::before {
+        /* the ::before is targetting the pseudo element */
+
+        /* we can't move from left to right instantly 100%,
+         * so we need to claculate the icon size, inner
+         * padding size, so that we can move it smoothly
+         */
+        left: calc(100% - (var(--size-of-icon, 1.4em) + var(--slider-offset, 0.3em)));
+        /* todo- write note */
+
+        height: 12px;
+        border-right: 3px solid white;
+        border-bottom: 0px;
+        transform: rotate(90deg);
+        top: 0.5em;
+        left: 35px;
+      }
     </style>
   </head>
 
 
   <body>
     <div class="header">
-      <h1>WINNER</h1>
+      <h1>in the next 5 minutes...</h1>
       <p id="winner">NONE</p>
     </div>
 
@@ -70,18 +160,26 @@
       </div>
     </div>
 
-    <div class="inputArea" onchange="createWheel()">
-      <textarea rows="20" cols="30">cat
-dog
-sheep
-duck
-bird
-goat
-neko
-chicken</textarea>
-
+    <div class="switch-wrapper">
+      <label class="switch">
+        <input type="checkbox" id="autoRemoveToggle"/>
+        <span class="slider"></span>
+      </label>
     </div>
 
+    <div class="inputArea" onchange="createWheel()">
+      <textarea rows="20" cols="30">stretch
+wash dishes
+fold clothes
+hydrate
+make bed
+wash face
+brain dump
+check weather
+shower
+snack</textarea>
+
+    </div>
     <script>
       function randomColor() {
         r = Math.floor(Math.random() * 255);
@@ -203,14 +301,17 @@ chicken</textarea>
       let pause = false;
       function animate() {
         if (pause) {
-          setTimeout(null, 100000); //<-- but this doesn't pause properly
+          const toggle = document.getElementById("autoRemoveToggle");
+          if (toggle.checked == true) {
+            setTimeout(null, 100000); //<-- but this doesn't pause properly
+            //removes the most recent winner & redraws the wheel
+            let winner_option = document.getElementById("winner").innerHTML;
+            items = document.getElementsByTagName("textarea")[0].value.split("\n");
+            let lines = items.filter(line => line.trim() !== winner_option);
+            document.getElementsByTagName("textarea")[0].value = lines.join("\n");
+            createWheel();
+          }
 
-          //removes the most recent winner & redraws the wheel
-          let winner_option = document.getElementById("winner").innerHTML;
-          items = document.getElementsByTagName("textarea")[0].value.split("\n");
-          let lines = items.filter(line => line.trim() !== winner_option);
-          document.getElementsByTagName("textarea")[0].value = lines.join("\n");
-          createWheel();
           return;
         }
 
