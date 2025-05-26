@@ -10,8 +10,6 @@
 ## purpose 
 just a cool project. 
 
-
-
 i also need to stop being indecisive!...
 
 ## motivation 
@@ -41,6 +39,12 @@ _potential (!!!) ideas..._
 - 05/21/2025: updated the readme properly. TIL (or re-learned) that i can just preview instead of committing to view my changes 😭
 - 05/23/2025: i wanted to work on this everyday but i kind of fell off. oops... i tried to add the automatically-removing-winner thing, but i barely have it working. check my commit on this day to see additional details & further steps
 - 05/26/2025: wth it's been three days ??? anywho I finally created a toggle button. followed a tutorial, and then re-designed my own switches with a little bit of help. added the css to the main html file, and incorporated functionality. yippee!
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5e3809dd-7501-4ace-a95f-d4ad27b6f290" width="10%" height="10%" />
+</p>
+
+- 05/??/2025:
+
 
 ### todos
 - [ ] annotate & really understand the code from the tutorial
