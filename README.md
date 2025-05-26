@@ -20,12 +20,12 @@ i also need to stop being indecisive!...
 </p>
 The initial motivation was that I was always indecisive and therefore would resort to the easiest choice –– to scroll on my phone. I've been exposed to social media since long and it has taken my attention and energy away from the things that I actually want to try and matter. By having a easier decision-making method which allows me to complete a simple task, like some simple chores by default, I hope that my actions will snowball and lead me to take more conscious choices, eventually completing the tasks and being the person I want to be. 
 
-## source
+## source(s)
 i am basing it off of a [youtube tutorial](https://youtu.be/-FNm58Z9GHM?si=nab7WdWw4G7CO9vj). gotta love the internet! \
 additionally, I modelled my toggle switch button off of [this tutorial](https://youtu.be/nCJtL_-kDGU?si=zHwsm9okZisIlyKR). 
 
 ## upcoming changes / ideas
-_potential (!!!) ideas..._\
+_potential (!!!) ideas..._
 - [x] option to remove a choice automatically once selected (ie when the wheel lands on the said option)
   - [ ] i probably want to re-design it tho 
 - [ ] potentially re-create as an iOS widge on the lock screen or home page so I can access it on my phone
