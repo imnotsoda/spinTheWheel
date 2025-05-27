@@ -27,6 +27,8 @@ The initial motivation was that I was always indecisive and therefore would reso
 ## source(s)
 i am basing it off of a [youtube tutorial](https://youtu.be/-FNm58Z9GHM?si=nab7WdWw4G7CO9vj). gotta love the internet! \
 additionally, I modelled my toggle switch button off of [this tutorial](https://youtu.be/nCJtL_-kDGU?si=zHwsm9okZisIlyKR). 
+- to make my gifs unclickable on my readme: https://stackoverflow.com/questions/40625614/is-it-possible-to-disable-the-automatic-linking-of-images-in-github-markdown-ren
+- 
 
 ## upcoming changes / ideas
 _potential (!!!) ideas..._
@@ -46,7 +48,9 @@ _potential (!!!) ideas..._
 - 05/23/2025: i wanted to work on this everyday but i kind of fell off. oops... i tried to add the automatically-removing-winner thing, but i barely have it working. check my commit on this day to see additional details & further steps
 - 05/26/2025: wth it's been three days ??? anywho I finally created a toggle button. followed a tutorial, and then re-designed my own switches with a little bit of help. added the css to the main html file, and incorporated functionality. yippee!
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/5e3809dd-7501-4ace-a95f-d4ad27b6f290" width="10%" height="10%" />
+    <picture>
+        <img src="https://github.com/user-attachments/assets/5e3809dd-7501-4ace-a95f-d4ad27b6f290" width="10%" height="10%" />
+    </picture> 
 </p>
 
 - 05/27/2025: linked it to github pages. surprisingly easy???? why ??? LOL. anyways, it's [live](https://imnotsoda.github.io/spinTheWheel/)! 
