@@ -36,7 +36,7 @@ _potential (!!!) ideas..._
 - [ ] generate specific color tones / themes (eg. just pastel tones, or to generate colors that are not similar to each other for the adjacent parts --- currently the colors are randomly generalted)
 - [ ] build another version which it has two layers of wheels (category version), and make them spin in opposite directions
 - [ ] have the person click & drag their cursor over the wheel to simulate an actual wheel spinning
-- [ ] deploy it & actually host the website. currently it is just local host 😋
+- [x] deploy it & actually host the website. currently it is just local host 😋
 - [ ] move the textbox & toggle switch to the right of the wheel (just a better placement imo)
 - [ ] make the text self-wrap
 
@@ -49,7 +49,7 @@ _potential (!!!) ideas..._
   <img src="https://github.com/user-attachments/assets/5e3809dd-7501-4ace-a95f-d4ad27b6f290" width="10%" height="10%" />
 </p>
 
-- 05/??/2025:
+- 05/27/2025: linked it to github pages. surprisingly easy???? why ??? LOL. anyways, it's [live](https://imnotsoda.github.io/spinTheWheel/)! 
 
 
 ### todos
