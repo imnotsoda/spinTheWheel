@@ -4,8 +4,14 @@
     wheel spinning shenanigans
 <p/>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/95a2dd6d-cd19-42db-9c6f-a2b3bc84adf9" width="50%" height="50%" />
+    <picture>
+        <img alt="Image Alt Text" src="https://github.com/user-attachments/assets/95a2dd6d-cd19-42db-9c6f-a2b3bc84adf9" width="50%" height="50%">
+    </picture>  <br>
+    check it out over here: https://imnotsoda.github.io/spinTheWheel/
 </p>
+
+> [!WARNING]  
+> if you click it normally, it will open the link in the current page. make sure to cntrl + click if you want it to open on a new page!
 
 ## purpose 
 just a cool project. 
