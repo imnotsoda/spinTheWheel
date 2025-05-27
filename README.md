@@ -28,7 +28,8 @@ The initial motivation was that I was always indecisive and therefore would reso
 i am basing it off of a [youtube tutorial](https://youtu.be/-FNm58Z9GHM?si=nab7WdWw4G7CO9vj). gotta love the internet! \
 additionally, I modelled my toggle switch button off of [this tutorial](https://youtu.be/nCJtL_-kDGU?si=zHwsm9okZisIlyKR). 
 - to make my gifs unclickable on my readme: https://stackoverflow.com/questions/40625614/is-it-possible-to-disable-the-automatic-linking-of-images-in-github-markdown-ren
-- 
+- realizing this is all i need to do to host my website on github ????: https://youtu.be/o3UU9TjDV4g?si=YgqHY7aOtMBVDVwk
+- to figure out how to make my page layout differ repsonsively: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_responsive_media_query3
 
 ## upcoming changes / ideas
 _potential (!!!) ideas..._
