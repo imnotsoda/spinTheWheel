@@ -19,10 +19,18 @@
         text-align: center;
       }
 
+      .wheelAndText {
+        display: flex;
+        flex-direction: row; /* horizontal layout */
+        justify-content: center;
+        align-items: center;
+      }
+
       .wheel{
         display: flex;
         justify-content: center;
         position: relative;
+        margin-right: 75px;
       }
 
       .center-circle{
@@ -53,10 +61,22 @@
         margin-top: 10px;
       }
 
+      @media only screen and (max-width: 864px) {
+        /* when window size cannot fit both wheel & textbox */
+        .wheelAndText {
+          flex-direction: column;
+        }
+
+        .wheel{
+          margin-right: 0px;
+          margin-bottom: 20px;
+        }
+      }
+
       .switch-wrapper {
         display: flex;
         justify-content: center;
-        margin-top: 40px;
+        margin-top: 0px;
         margin-bottom: 10px;
       }
 
@@ -153,22 +173,24 @@
       <p id="winner">NONE</p>
     </div>
 
-    <div class="wheel">
-      <canvas class="" id="canvas" width="500" height="500"></canvas>
-      <div class="center-circle" onclick="spin()">
-        <div class="triangle"></div>
+    <div class="wheelAndText">
+      <div class="wheel">
+        <canvas class="" id="canvas" width="500" height="500"></canvas>
+        <div class="center-circle" onclick="spin()">
+          <div class="triangle"></div>
+        </div>
       </div>
-    </div>
 
-    <div class="switch-wrapper">
-      <label class="switch">
-        <input type="checkbox" id="autoRemoveToggle"/>
-        <span class="slider"></span>
-      </label>
-    </div>
+      <div class="textAndSwitch">
+        <div class="switch-wrapper">
+          <label class="switch">
+            <input type="checkbox" id="autoRemoveToggle"/>
+            <span class="slider"></span>
+          </label>
+        </div>
 
-    <div class="inputArea" onchange="createWheel()">
-      <textarea rows="20" cols="30">stretch
+        <div class="inputArea" onchange="createWheel()">
+          <textarea rows="20" cols="30">stretch
 wash dishes
 fold clothes
 hydrate
@@ -178,8 +200,10 @@ brain dump
 check weather
 shower
 snack</textarea>
-
+        </div>
+      </div>
     </div>
+
     <script>
       function randomColor() {
         r = Math.floor(Math.random() * 255);
@@ -260,8 +284,8 @@ snack</textarea>
           rad = toRad(360 / step);
           ctx.arc(centerX, centerY, radius - 2, toRad(startDeg), toRad(endDeg));
           let colorStyle2 = `rgb(${Math.max(0, color.r - 30)},
-                                ${Math.max(0, color.g - 30)},
-                                ${Math.max(0, color.b - 30)})`;
+                                 ${Math.max(0, color.g - 30)},
+                                 ${Math.max(0, color.b - 30)})`;
           ctx.fillStyle = colorStyle2;
           ctx.lineTo(centerX, centerY);
           ctx.fill();
@@ -285,7 +309,7 @@ snack</textarea>
             ctx.fillStyle = "#fff";
           }
           ctx.font = 'bold 24px serif';
-          ctx.fillText(items[i], 100, 10);
+          ctx.fillText(items[i], 75, 10);
           ctx.restore();
 
           //check winner --- just checks where the triangle is pointing to
