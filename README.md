@@ -40,7 +40,7 @@ _potential (!!!) ideas..._
 - [ ] build another version which it has two layers of wheels (category version), and make them spin in opposite directions
 - [ ] have the person click & drag their cursor over the wheel to simulate an actual wheel spinning
 - [x] deploy it & actually host the website. currently it is just local host 😋
-- [ ] move the textbox & toggle switch to the right of the wheel (just a better placement imo)
+- [x] move the textbox & toggle switch to the right of the wheel (just a better placement imo)
 - [ ] make the text self-wrap
 
 ## timeline
@@ -54,7 +54,7 @@ _potential (!!!) ideas..._
     </picture> 
 </p>
 
-- 05/27/2025: linked it to github pages. surprisingly easy???? why ??? LOL. anyways, it's [live](https://imnotsoda.github.io/spinTheWheel/)! 
+- 05/27/2025: linked it to github pages. surprisingly easy???? why ??? LOL. anyways, it's [live](https://imnotsoda.github.io/spinTheWheel/)! AND reformatted the layout (+it's also responsive EEEEEEE)
 
 
 ### todos
