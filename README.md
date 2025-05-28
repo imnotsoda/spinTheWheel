@@ -34,7 +34,8 @@ additionally, I modelled my toggle switch button off of [this tutorial](https://
 ## upcoming changes / ideas
 _potential (!!!) ideas..._
 - [x] option to remove a choice automatically once selected (ie when the wheel lands on the said option)
-  - [ ] i probably want to re-design it tho 
+  - [ ] i probably want to re-design it tho
+- [ ] display the winner on the screen for longer than currently. perhaps a pop out? 
 - [ ] potentially re-create as an iOS widge on the lock screen or home page so I can access it on my phone
 - [ ] generate specific color tones / themes (eg. just pastel tones, or to generate colors that are not similar to each other for the adjacent parts --- currently the colors are randomly generalted)
 - [ ] build another version which it has two layers of wheels (category version), and make them spin in opposite directions
